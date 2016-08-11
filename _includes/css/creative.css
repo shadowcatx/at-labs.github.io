@@ -64,8 +64,9 @@ aside {
 .no-padding {
   padding: 0;
 }
+
 .navbar-default {
-  background-color: white;
+  background-color: #222;
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
@@ -82,18 +83,23 @@ aside {
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #1c76cb;
 }
+
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
-  color: #222222;
+  color: white;
   text-transform: uppercase;
+  border-color: #888;
+}
+.navbar-default .navbar-toggle:hover {
+   border-color: white;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: #222222;
+  color: white;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {

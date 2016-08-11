@@ -5,9 +5,16 @@
 
 
     <body id="page-top" class="index">
-
-    {% include header.html %}
-
+	{% include navbar.html %}
+      <header class="sub-page">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">BLOG</h1>
+                <hr>
+                <p>The newest updates for AT labs</p>
+            </div>
+        </div>
+    </header>
     {% include portfolio_grid.html %}
     {% include footer.html %}
     {% include modals.html %}
