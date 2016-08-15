@@ -1,0 +1,50 @@
+---
+title: AT is not going to change?
+short: Times are changing - how is Auckland Transport reacting to these challenges
+layout: default
+category: blog
+modal-id: 1
+date: 2016-08-15 11:00:00 +1200
+description: We are just getting started - through AT Labs, we envision ideas to emerge from all sides, either under the umbrella of Auckland Transport or as new businesses, to advance the future of Auckland
+
+---
+
+It's one of those favourite past time activities of Aucklanders: Complaining about the inefficiencies of Auckland Council, and, in this context, Auckland Transport (yes, we know, we live here too). Everybody, when asked, has their points of contention, things they would do better/different, if only they were in charge.
+
+While there are ways to engage, in the past these were only for the most determined of us, and the result often didn't look anything like the proposal. Too many cooks, as the saying goes.
+
+With the new AT Labs, we are aiming to improve that - starting with the digital space.
+
+# This is just the start
+
+Auckland Transport's digital channels, admittedly, are rather basic: A website covering information about what AT does, its projects, congestion & parking, cycle ways, manage and top up your HOP card, some tools to plan your journey on public transport. And a couple of mobile apps (Metro app, Track My Bus) that are trying to make your public transport experience easier while you are on the go.
+
+We realise this is just the start.
+
+A lot more can be done. How often do you think: "If only we had ..."? With AT Labs, we'd like to help you make these ideas become a reality, by connecting people with ideas to people who can make these ideas come alive - and with people who have some expertise in this: us. We start with what most ideas require: data. We can provide data about roads, traffic, schedules, geographical positions, routes. Let us know if you need anything else that we might have. And even if we don't have the data: Ask anyway, and we'll try to get it.
+
+# Auckland Transport is changing
+
+Auckland Transport's "mission" is to provide the transport infrastructure to make Auckland the most liveable city. Since its inception, AT has been working on this, somewhat in isolation. Without trying to make excuses, this has been because tools and processes to integrate ideas and feedback have not been available, or usable. Coming up with, and implementing new ideas has always been a lengthy, and expensive process.
+
+APIs, one of the cornerstones of AT Labs, are changing this, together with advances in technology. Digital products are always a combination of infrastructure, logic and data. Finally, infrastructure has become flexible and inexpensive enough to just "try". APIs can provide the data required to power ideas - so we are really only missing the logic/ideas.
+
+Auckland Transport, with AT Labs, is changing to make the most out of these opportunities.
+
+Though, it's not only Auckland Transport that is changing ...
+
+# Transport is changing
+
+We firmly believe that massive change is around the corner: The likes of Uber/Lyft are just the start. These companies have already shown us that, through smart optimisation, the cost of taxi/limousine service can be brought into an area where car ownership, for some people, is a more expensive option.
+
+Some companies are already experimenting with ride sharing, or smaller buses and dynamic routes, which should be even cheaper - and blurs the line between rather rigid public transport and the flexibility of owning a car.
+
+And, of course, self-driving cars are appearing on the horizon, which, in my mind, is going to bring the biggest disruption of all. From a significantly reduced need to own a car, while still maintaining much of the flexibility, to not needing central car parks (but perhaps better pick-up zones), to dynamic ride sharing - and these are just changes for the user. The insurance industry, petrol stations, and roads themselves are all going to change, as driving becomes safer, cheaper, and more efficient.
+
+Though, rather than leaving all the excitement, and rewards, to our friends in Silicon Valley: Why not start here, in New Zealand?
+
+# What next?
+
+By sharing Auckland Transport's data and systems, we'd like to make innovation easier, and for new transport ideas and initiatives to develop inside and, especially, outside of AT. We envision ideas to emerge from all sides, either under the umbrella of Auckland Transport or as new businesses - which in turn can change how Auckland Transport goes about doing its part for the future of Auckland.
+
+Let us know your thoughts to improve Auckland Transport - or how we can support your business ideas. We could really use your help.
