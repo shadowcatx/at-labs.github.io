@@ -15,7 +15,6 @@
 }
 
 .post-container {
-	margin-top: 50px;
 	margin-bottom: 200px;
 	min-height: 500px;
 }
@@ -31,8 +30,32 @@
 	margin-top: 90px;
 }
 
+.blog-content{
+	margin: 40px;
+}
+
+
 .blog-content>h1{
 	margin-top: 1.5em;
 	text-align: center;
+	font-weight: 600;
 }
 
+.blog-item>p{
+	color: #333;
+}
+
+.blog-item>h2{
+	margin-top: 1.5em;
+	font-weight: 600;
+}
+
+.blog-item>.date{
+	color: #bbb;
+	margin-bottom: 10px;
+}
+
+@media (min-width:1200px){
+	.container{width:970px;}
+	.wide{width:1170px;}
+}
