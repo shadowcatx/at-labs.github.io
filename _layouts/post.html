@@ -6,17 +6,16 @@
     {% include navbar.html %}
       <header class="sub-page">
         <div class="header-content">
-            <div class="header-content-inner">
+            <div class="header-content-inner short">
                 <h1 id="homeHeading">{{ page.title }}</h1>
                 <hr>
-                <p>{{ page.short }}</p>
+                <p>{{ page.date | date: '%B %d, %Y' }}</p>            
             </div>
         </div>
     </header>
 
     <div class="post-container">
         <div class="row">
-
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="date-container">
                     <strong><a>{{ page.date | date: '%B %d, %Y' }}</a></strong>
@@ -25,11 +24,11 @@
                     <p>{{ page.description }}</p>
                     
                     <p>{{ page.content }}</p>
+
             </div>
         </div>
-    
-    </div>
 
+    </div>
         {% include footer.html %}
         {% include js.html %}
 
