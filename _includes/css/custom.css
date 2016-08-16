@@ -14,11 +14,6 @@
 	font-weight: 700;
 }
 
-.post-container {
-	margin-bottom: 200px;
-	min-height: 500px;
-}
-
 .date-container{
 	width:100%;
 	text-align: center;
@@ -28,6 +23,10 @@
 
 .header-content-inner.short{
 	margin-top: 90px;
+}
+
+#blog{
+	min-height: 700px;
 }
 
 .blog-content{
