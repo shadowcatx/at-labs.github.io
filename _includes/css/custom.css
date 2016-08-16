@@ -55,3 +55,7 @@
 	.container{width:970px;}
 	.wide{width:1170px;}
 }
+
+.row{
+	margin: 0px;
+}
