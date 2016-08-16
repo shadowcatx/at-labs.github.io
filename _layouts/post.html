@@ -19,7 +19,9 @@
             <div class="col-lg-8 col-lg-offset-2 ">
             <div class="blog-content">
                 <div class="date-container">
-                    <strong>{{ page.date | date: '%B %d, %Y' }}</strong>
+                    <div class="circle"> 
+                    <span><strong>{{ page.date | date: '%B %d, %Y' }}</strong></span>
+                    </div>
                  </div>   
                 <!--img src="img/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}"-->
                 {{ page.content }}
