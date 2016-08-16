@@ -41,6 +41,21 @@
 	font-weight: 600;
 }
 
+.blog-content>h1:after {
+    content:' ';
+    width: 70px;
+    margin: 15px auto;
+    text-align: center;
+    display:block;
+    border:2px solid #378fe3;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
 .blog-item>h2{
 	margin-top: 1.5em;
 	font-weight: 600;
