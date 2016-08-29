@@ -7,8 +7,8 @@
                      <div class="col-md-12 col-sm-12 blog-item">
                             <h2 class="">{{ post.title | escape }}
                             </h2>
-                            <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
-                            <p><b>{{ post.short }}</b> {{ post.content | strip_html | truncatewords: 50 }} Read more &raquo;</p>
+                            <div class="date">{{ post.date | date: "%b %-d, %Y" }} | {{ post.author }}/{{ post.org }}</div>
+                            <p>{{ post.content | strip_html | truncatewords: 50 }} Read more &raquo;</p>
                       </div>
                   </a>
             {% endfor %}
