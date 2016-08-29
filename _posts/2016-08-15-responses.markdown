@@ -3,6 +3,8 @@ title: Response and error handling
 short: How to read responses, and what errors look like
 layout: post
 category: gettingstarted
+section: general
+index: 30
 date: 2016-08-15 20:00:00 +1200
 
 ---
