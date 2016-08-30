@@ -4,7 +4,7 @@ short: Getting started with the Display API
 layout: post
 category: gettingstarted
 section: api
-index: 40
+index: 50
 date: 2016-08-15 16:00:00 +1200
 
 ---
