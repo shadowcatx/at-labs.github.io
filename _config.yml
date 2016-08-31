@@ -13,14 +13,14 @@ highlighter: rouge
 social:
   - title: twitter
     url: http://twitter.com/
-  - title: facebook
-    url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/at
-  - title: bitbucket 
-    url: http://bitbucket.org/
+  - title: comments
+    url: https://gitter.im/at-labs/Lobby
+  - title: tasks
+    url: https://waffle.io/AT-Labs/at-labs.github.io
   - title: github
-    url: http://github.com/
+    url: http://github.com/AT-Labs
 
 # Postal address (add as many lines as necessary)
 address:
