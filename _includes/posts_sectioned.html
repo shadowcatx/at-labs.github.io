@@ -3,8 +3,12 @@
         <div class="container">
             <div class="row">
             {% for pagetag in page.showtags %}
-            <h1 class="">{{ pagetag }}</h1>
-            
+             
+            <div class="started-section-wrapper">
+              <div class="header-content-inner">
+                  <h1 class="started-section-heading">{{ pagetag }}</h1>
+                  <hr>
+              </div>
             {% assign posts = site.categories.[page.layout] | where: "section", pagetag | sort: "index" %}
             
             {% for post in posts %}
@@ -16,6 +20,7 @@
                       </div>
                   </a>
             {% endfor %}
+            </div>
             {% endfor %}
             </div>
         </div>
