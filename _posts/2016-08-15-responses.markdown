@@ -36,7 +36,7 @@ typeof cb === 'function' && cb({
 });
 ```
 
-If an error should occur, then the response will look like this:
+If an error should occur in the backend, then the response will look like this:
 
 ```json
 {
@@ -48,5 +48,16 @@ If an error should occur, then the response will look like this:
   }
 }
 ```
+
+API access errors, like insufficient permissions, are formatted differently, and look like this:
+
+```json
+{
+  "statusCode": ...,
+  "message": "..."
+}
+```
+
+The statusCode field matches the HTTP response status code.
 
 Should be fairly self-explanatory.
