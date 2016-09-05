@@ -1,5 +1,5 @@
 ---
-title: Welcome to AT Labs
+title: Welcome to ATLabs
 short: Come and have a look at how you can contribute to Auckland Transport with your ideas!
 author: Jan von Bargen
 org: Propellerhead
