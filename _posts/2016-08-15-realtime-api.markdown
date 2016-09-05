@@ -137,3 +137,22 @@ Both `latitude` and `longitude`, as per the GTFS Realtime specification, are inc
 The `odometer` and `speed` fields are currently not provided.
 
 # Alert API
+
+The Alert API provides notifications for incidents across Auckland Transport's public transport network.
+
+## Alert
+
+> A notification of an incident in the public transit network.
+
+All fields for the alert entity are populated - including optional fields. English is the only translation available for the `url`, `header_text` and `description_text` fields.
+
+The `active_period` currently sets the `start` or `end` to "null", and doesn't omit them as per the GTFS Realtime specification. This may change in future.
+{: .warning}
+
+The alert entity also provides 2 extension elements:
+
+1. `is_show_header`: Indicates if the `header_text` should be displayed
+2. `level`: This field indicates the severity of the incident - similar to log entries. The value can be either of "Info", "Warning" or "Critical"
+
+These extensions are used internally and don't form part of the API contract. While they can be used, care should be taken as future versions of the API may refactor or remove them.
+{: .note}
