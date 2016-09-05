@@ -159,3 +159,22 @@
 .navbar-brand-logo {
   float: left !important;
 }
+
+.nav.navbar-nav {
+  &.desktop {
+    display: inherit;
+  }
+  &.mobile{
+    display:none;
+  }
+}
+@media(max-width:767px) {
+  .nav.navbar-nav {
+    &.desktop {
+      display: none;
+    }
+    &.mobile{
+      display:inherit;
+    }
+  }
+}
