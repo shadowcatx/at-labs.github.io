@@ -47,7 +47,7 @@ Same thing as for the GTFS API: You may not like the underscores, but this is th
 
 **Realtime**
 
-At the moment, the feed is updated at least every 30 seconds. The GTFS Realtime specification provisions for, but does currently not allow incremental/differential updates - the GTFS Realtime API behaves to spec.
+At the moment, the feed is updated at least every 30 seconds. The GTFS Realtime specification provisions for, but currently does not allow incremental/differential updates - the GTFS Realtime API behaves to spec.
 
 # Realtime API
 
@@ -74,7 +74,7 @@ The fields/structures `trip`, `vehicle` and `stop_time_update`, as well as `time
 
 > A descriptor that identifies an instance of a GTFS trip, or all instances of a trip along a route.
 
-The `trip_id` and `route_id` refer to the trips and routes published through the GTFS API. Please note the special management of routes, explained in the [GTFS API](../gtfs-api/).
+The `trip_id` and `route_id` refer to the trips and routes published through the GTFS API. Please note the particular management of routes, explained in the [GTFS API](../gtfs-api/).
 
 The fields `direction_id`, as well as `start_time` and `start_date` are not set. They can be retrieved from the GTFS API if required.
 
@@ -84,9 +84,9 @@ The `schedule_relationship` is always set to 0 (SCHEDULED). The backend system d
 
 > Identification information for the vehicle performing the trip.
 
-Currently, only the `id` is set. The id is provided by AVL (automatic vehicle location) devices installed on buses, trains and ferries. It is, as per specs, strictly a string, although it currently, for buses, looks numerical (e.g. for trains it looks very different, and even has spaces in it). The id is just that: an identifier for a vehicle. As vehicles can be used for different routes, or even swapped (in case a vehicle breaks down, for example), it should not be used to deduct routes or similar.
+Currently, only the `id` is set. The id is provided by AVL (automatic vehicle location) devices installed on buses, trains and ferries. It is, as per specs, strictly a string, although it currently, for buses, looks numerical (e.g. for trains it looks very different, and even has spaces in it). The id is just that: an identifier for a vehicle. As vehicles can be used for different routes, or even swapped (in case a vehicle breaks down, for example), it should not be used to deduce routes or similar.
 
-The id (& format) may also change in future - so please also don't try to deduct anything else from it.
+The id (& format) may also change in future - so please also don't try to read anything else into it.
 
 ## Stop Time Event
 
@@ -98,7 +98,7 @@ The `uncertainty` field is currently omitted. According to the specs it probably
 
 ## Stop Time Update
 
-> Realtime update for arrival and/or departure events for a given stop on a trip. Updates can be supplied for both past and future events.
+> Realtime update for arrival and departure events for a given stop on a trip. Updates can be supplied for both past and future events.
 
 The fields `stop_sequence` and `stop_id` or both set. The arrival and departure *stop time event*s are populated when the vehicle either enters a stop location (arrival) or exits a stop location (departure).
 
@@ -120,7 +120,7 @@ The fields/structures `trip`, `vehicle` and `position`, as well as `timestamp`, 
 
 Please see the *Trip Descriptor* section, part of the *Trip Update API*, above.
 
-For trip descriptors as part of the vehicle position messages, the field `start_time` is included.
+For trip descriptors in the context of the vehicle position messages, the field `start_time` is included.
  
 ## Vehicle Descriptor
 
@@ -149,10 +149,10 @@ All fields for the alert entity are populated - including optional fields. Engli
 The `active_period` currently sets the `start` or `end` to "null", and doesn't omit them as per the GTFS Realtime specification. This may change in future.
 {: .warning}
 
-The alert entity also provides 2 extension elements:
+The alert entity also provides two extension elements:
 
 1. `is_show_header`: Indicates if the `header_text` should be displayed
-2. `level`: This field indicates the severity of the incident - similar to log entries. The value can be either of "Info", "Warning" or "Critical"
+2. `level`: This field indicates the severity of the incident - similar to log entries. The value can be either of "Info", "Warning" or "Critical".
 
 These extensions are used internally and don't form part of the API contract. While they can be used, care should be taken as future versions of the API may refactor or remove them.
 {: .note}
