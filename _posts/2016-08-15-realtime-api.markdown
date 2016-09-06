@@ -78,7 +78,7 @@ The `schedule_relationship` is always set to 0 (SCHEDULED). The backend system d
 
 Currently, only the `id` is set. The id is provided by AVL (automatic vehicle location) devices installed on buses, trains and ferries. It is a string, as per specs, although it currently looks numerical for buses. For trains, it looks very different and even includes spaces.
 
-The id is just that: A vehicle identifier. As vehicles can be used for different routes, or even swapped (in case of a vehicle break down for example), it should not be used to deduce routes or similar. Secondly, the id (& format) may change in future, so please don't try to deduce anything else from it.
+The id is just that: A vehicle identifier. As vehicles can be used for different routes, or even swapped (in the case of a vehicle break down for example), the id should not be used to deduce routes or similar. Secondly, the id (& format) may change in future, so please don't try to deduce anything else from it.
 
 ## Stop Time Event
 
