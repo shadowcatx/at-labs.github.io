@@ -188,3 +188,16 @@ span.text-muted.small {
 .navbar-brand.with-logo{
   padding-top: 2px;
 }
+
+/* Services */
+.service-icon{
+  &:hover{
+    text-decoration: none;
+    color: #1E3D5a;
+
+    i.text-primary{
+      color: #1E3D5a;
+    }
+  }
+}
+
