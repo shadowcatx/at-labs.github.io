@@ -159,3 +159,45 @@
 .navbar-brand-logo {
   float: left !important;
 }
+
+.nav.navbar-nav {
+  &.desktop {
+    display: inherit;
+  }
+  &.mobile{
+    display:none;
+  }
+}
+@media(max-width:767px) {
+  .nav.navbar-nav {
+    &.desktop {
+      display: none;
+    }
+    &.mobile{
+      display:inherit;
+    }
+  }
+}
+span.text-muted.small {
+    color: white;
+    opacity: .5;
+    font-size: .7em !important;
+    margin: 10px;
+}
+
+.navbar-brand.with-logo{
+  padding-top: 2px;
+}
+
+/* Services */
+.service-icon{
+  &:hover{
+    text-decoration: none;
+    color: #1E3D5a;
+
+    i.text-primary{
+      color: #1E3D5a;
+    }
+  }
+}
+
