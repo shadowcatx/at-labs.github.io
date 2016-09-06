@@ -84,7 +84,7 @@ The id is just that: A vehicle identifier. As vehicles can be used for different
 
 > Timing information for a single predicted event (either arrival or departure).
 
-Both `delay` and `time` fields are set. Note that the delay can be and is reasonably often negative, particularly for buses.
+Both `delay` and `time` fields are set. Note that the delay can be negative reasonably often, particularly for buses.
 
 The `uncertainty` field is currently omitted. According to the specs it probably should be set, given the API is returning the `delay`.
 
