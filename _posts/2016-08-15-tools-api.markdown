@@ -120,7 +120,7 @@ The `tripId` field refers to the [GTFS API](../gtfs-api/) Trip entity, and the `
 # Geo Coder
 
 {:refdef: .warning}
-The API for the geo coder is currently "public restricted", i.e. only available to partners. Please [contact us]() to either make it public, or get a partner access key.
+The API for the geo coder is currently "public restricted", i.e. only available to partners. Please [contact us](mailto:info@atlabs.xyz) to either make it public, or get a partner access key.
 {:refdef}
 
 The geo coder API connects to an Auckland Transport geo coder service, which translates geographical locations (latitude, longitude) into addresses - called reverse encoding -, and vice versa - called forward encoding.
