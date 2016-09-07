@@ -18,7 +18,7 @@ social:
   - title: comments
     url: https://gitter.im/at-labs/Lobby
   - title: tasks
-    url: https://waffle.io/AT-Labs/at-labs.github.io
+    url: https://waffle.io/AT-Labs/at-api
   - title: github
     url: http://github.com/AT-Labs
 
@@ -28,5 +28,4 @@ address:
   - line: Auckland, 1010
 
 # Build settings
-markdown: kramdown
 permalink: pretty
