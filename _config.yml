@@ -16,8 +16,6 @@ social:
     url: http://twitter.com/
   - title: comments
     url: https://gitter.im/at-labs/Lobby
-  - title: tasks
-    url: https://waffle.io/AT-Labs/at-api
   - title: github
     url: http://github.com/AT-Labs
 
