@@ -9,53 +9,23 @@
     <section class="no-padding bg-dark" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
+                {% for post in site.data.gallery %}
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/travelAdvisor.jpg" class="portfolio-box" title="Travel Advisor" caption="App that shows transport information in auckland. It is open-sourced on <a href='https://github.com/AT-Labs/traveladvisor'>GitHub</a>" >
-                        <img src="img/portfolio/thumbnails/travelAdvisor.jpg" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/{{ post.imageUrl | prepend: site.baseurl }}" class="portfolio-box" title="Travel Advisor" caption="{{ post.caption | prepend: site.baseurl }}" >
+                        <img src="img/portfolio/thumbnails/{{ post.imageThumbUrl | prepend: site.baseurl }}" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    ATLabs
+                                    {{ post.displayCompany | prepend: site.baseurl }}
                                 </div>
                                 <div class="project-name">
-                                    Travel Advisor
+                                    {{ post.displayName | prepend: site.baseurl }}
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.png" class="portfolio-box" title="AT Metro" caption="App that has Journey Planner and Real Time board integrated. Available on <a href='https://play.google.com/store/apps/details?id=nz.org.aucklandtransport.maxx.mobile'>Android</a> and <a href='https://itunes.apple.com/nz/app/at-public-transport/id456823066?mt=8'>iOS</a>.">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Auckland Transport
-                                </div>
-                                <div class="project-name">
-                                    AT Metro
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.png" class="portfolio-box" title="Track My Bus" caption="App that allows user to save their favorite bus stops to easily find when the next bus is arriving. Available on <a href='https://play.google.com/store/apps/details?id=com.ionicframework.athopapp712769'>Android</a> and <a href='https://itunes.apple.com/nz/app/at-metro-track-my-bus/id934638916?mt=8'>iOS</a>." >
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Auckland Transport
-                                </div>
-                                <div class="project-name">
-                                    Track My Bus
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-               
+                {% endfor %}
             </div>
         </div>
     </section>
