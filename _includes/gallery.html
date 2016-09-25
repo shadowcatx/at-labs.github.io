@@ -11,7 +11,7 @@
             <div class="row no-gutter popup-gallery">
                 {% for post in site.data.gallery %}
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/{{ post.imageUrl}}" class="portfolio-box" title="Travel Advisor" caption="{{ post.caption }}" >
+                    <a href="img/portfolio/fullsize/{{ post.imageUrl}}" class="portfolio-box" title="{{ post.displayName }}" caption="{{ post.caption }}" >
                         <img src="img/portfolio/thumbnails/{{ post.imageThumbUrl}}" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
