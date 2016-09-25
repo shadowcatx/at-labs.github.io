@@ -11,15 +11,15 @@
             <div class="row no-gutter popup-gallery">
                 {% for post in site.data.gallery %}
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/{{ post.imageUrl | prepend: site.baseurl }}" class="portfolio-box" title="Travel Advisor" caption="{{ post.caption | prepend: site.baseurl }}" >
-                        <img src="img/portfolio/thumbnails/{{ post.imageThumbUrl | prepend: site.baseurl }}" class="img-responsive" alt="">
+                    <a href="img/portfolio/fullsize/{{ post.imageUrl}}" class="portfolio-box" title="Travel Advisor" caption="{{ post.caption }}" >
+                        <img src="img/portfolio/thumbnails/{{ post.imageThumbUrl}}" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    {{ post.displayCompany | prepend: site.baseurl }}
+                                    {{ post.displayCompany }}
                                 </div>
                                 <div class="project-name">
-                                    {{ post.displayName | prepend: site.baseurl }}
+                                    {{ post.displayName }}
                                 </div>
                             </div>
                         </div>
