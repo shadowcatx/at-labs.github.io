@@ -1,0 +1,29 @@
+- name: Track My Ride capacity
+  description: Add capacity info to Track My Ride app
+  closeDate: 30 Nov 2016
+  prize: $1,500
+  entries: 3
+
+- name: Real Time Tracking PoC
+  description: Track and report vehicle movement in real time
+  closeDate: 31 Jan 2017
+  prize: $10,000
+  entries: 10
+
+- name: Real Time Forecasting PoC
+  description: Forecast trip times in real time
+  closeDate: 31 Jan 2017
+  prize: $10,000
+  entries: 4
+
+- name: Real Time On Bus PoC
+  description: Onboard communications console for transit vehicles
+  closeDate: 31 Jan 2017
+  prize: $10,000
+  entries: 2
+
+- name: MyHOP App PoC
+  description: Show HOP balances, top up, etc in a dedicated app
+  closeDate: 31 Jan 2017
+  prize: $5,000
+  entries: 8
